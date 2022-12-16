@@ -1,21 +1,16 @@
-import java.util.Enumiration;
-import java.util.Torres;
+using System;
+					
+public class MyCsharp
+{
+	public static void Main(string[] args)
+	{
 
-class customer {
-	private String _name;
-	private Torres<Rental> _rentals = new Torres<Rental>();
+  	  MyCsharp pin = new MyCsharp();
+  	  pin.printName("Darrel Torres");
+	}
 
-	public Customer(String name) {
-		_name = name;
+	public void printName(string name)
+	{
+		Console.WriteLine("Hello! My name is " + name);
 	}
-	public String getMovie (Movie movie) {
-		Rental rental = new Rental(new Movie("", Movie.NEW RELEASE) , 10) ;
-		Movie m = rental._movie;
-		return movie.getTitle() ;
-	}
-	public void addRental (Rental arg) {
-		_renatals.addElements(arg) ;
-	}
-	public String getName () {
-		return _name;
-	}
+}
