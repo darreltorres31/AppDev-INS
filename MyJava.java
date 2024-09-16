@@ -1,14 +1,16 @@
-public class MyJava
+using System;
+					
+public class MyCsharp
 {
-  public static void main(String[] args)
-  {
-    // Insert code from line below this comment where it instantiates the MyJava object into variable named pin, then call the method named printName(String name);
-    // Expected Line 1, replace this comment with code on pull request
-    // Expected Line 2, replace this comment with code on pull request
-  }
-  
-  public void printName(String name)
-  {
-    System.out.println("Hello! My name is " + name + "!");
-  }
+	public static void Main(string[] args)
+	{
+
+  	  MyCsharp pin = new MyCsharp();
+  	  pin.printName("Darrel Torres");
+	}
+
+	public void printName(string name)
+	{
+		Console.WriteLine("Hello! My name is " + name);
+	}
 }
